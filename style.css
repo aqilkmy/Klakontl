@@ -1,5 +1,6 @@
 @import url('<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">');
-html {
+
+body {
     background-color: #FFEFE2;
 }
 .navbar {
@@ -10,7 +11,7 @@ html {
 }
 
 .search-container{
-    display: block;
+    display: flex;
 }
 .search-button{
     margin-left: 5px;
@@ -48,7 +49,24 @@ html {
 }
 .col-gambar{
     height: 310px;
-    width: 220px;
+    width: 230px;
     background-color: blue;
     border-radius: 100px 0px 100px 0px;
+}
+.page-2{
+    width: 1920px;
+    height: 1080px;
+}
+.container-2{
+    margin-top: 80px;
+    height: 800px;
+    width: 1100px;
+    background-color: white;
+}
+.n5{
+    width: 550px;
+}
+
+.text-2{
+    font-family: serif;
 }
